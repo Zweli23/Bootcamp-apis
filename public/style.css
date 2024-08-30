@@ -1,0 +1,42 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightgreen;
+}
+
+h1{
+    text-align: center;
+    background-color: lightgreen;
+    border: 1px solid rgb(187, 140, 140);
+    padding: 1em;
+    
+}
+
+.widget{
+    background-color: whitesmoke;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid black;
+    flex: 1;
+}
+
+button{
+    padding: 1em;
+    border: 3px solid;
+    border-radius: 1em;
+}
+input{
+    padding: 0.5em;
+}
+
+.message{
+    padding: 1em;
+    background-color: greenyellow;
+    margin-bottom: 1em;
+}
+
+@media(min-width:960px){
+    .flex-model{
+        display: flex;
+    }
+}
